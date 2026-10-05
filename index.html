@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MOON BEAN</title>
+
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f2ec;color:#29251f;font-family:Arial,sans-serif}
+nav{height:65px;padding:0 25px;display:flex;justify-content:space-between;align-items:center;position:fixed;top:0;width:100%;background:#f5f2ecee;z-index:5}
+.logo{font-family:Georgia;font-size:22px;letter-spacing:3px}
+nav a{color:#29251f;text-decoration:none;margin-left:15px;font-size:12px}
+
+.hero{
+height:100vh;padding:180px 30px 50px;color:white;
+background:linear-gradient(#0005,#0005),
+url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200")
+center/cover;
+}
+.hero small{letter-spacing:4px}
+h1{font:normal 70px Georgia;margin:20px 0}
+.hero p{font-size:15px;line-height:1.8}
+.btn{display:inline-block;margin-top:20px;padding:12px 25px;border:1px solid white;color:white;text-decoration:none}
+
+section{padding:90px 25px}
+.label{font-size:11px;letter-spacing:3px;color:#887e70}
+h2{font:normal 42px Georgia;margin:15px 0 35px}
+
+.about img{width:100%;height:330px;object-fit:cover}
+p{line-height:1.8;color:#70695f}
+
+.menu{background:#e8e3da}
+.card{background:#f8f5ef;padding:25px;margin:15px 0}
+.card h3{font:normal 22px Georgia}
+.price{font-weight:bold}
+
+.visit{background:#292722;color:white}
+.visit p{color:#c8c2b8}
+
+footer{padding:30px 25px;background:#1c1b19;color:#aaa;font-size:12px}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">MOON BEAN</div>
+<div>
+<a href="#about">ABOUT</a>
+<a href="#menu">MENU</a>
+<a href="#visit">VISIT</a>
+</div>
+</nav>
+
+<header class="hero">
+<small>COFFEE · DESSERT · MOMENT</small>
+<h1>MOON<br>BEAN</h1>
+<p>하루의 속도를 잠시 늦추는 곳.<br>좋은 커피와 조용한 시간을 만나보세요.</p>
+<a class="btn" href="#menu">VIEW MENU</a>
+</header>
+
+<section id="about" class="about">
+<div class="label">01 — ABOUT</div>
+<h2>A Quiet Moment.</h2>
+<img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000">
+<p>MOON BEAN은 바쁜 일상 속에서 잠시 쉬어갈 수 있는 작은 카페입니다. 매일 좋은 원두와 정성스러운 디저트를 준비합니다.</p>
+</section>
+
+<section id="menu" class="menu">
+<div class="label">02 — MENU</div>
+<h2>Our Selection</h2>
+
+<div class="card">
+<h3>Moon Latte</h3>
+<p>부드러운 우유와 고소한 에스프레소</p>
+<span class="price">₩5,500</span>
+</div>
+
+<div class="card">
+<h3>Black Coffee</h3>
+<p>깊고 깔끔한 시그니처 블렌드</p>
+<span class="price">₩4,500</span>
+</div>
+
+<div class="card">
+<h3>Basque Cheesecake</h3>
+<p>부드럽고 진한 치즈케이크</p>
+<span class="price">₩6,500</span>
+</div>
+</section>
+
+<section id="visit" class="visit">
+<div class="label">03 — VISIT US</div>
+<h2>Come & Stay.</h2>
+<p>서울특별시 달빛구 문라이트로 24</p>
+<p>MON — FRI 09:00 — 21:00</p>
+<p>SAT — SUN 10:00 — 22:00</p>
+<p>02-1234-5678</p>
+</section>
+
+<footer>© 2026 MOON BEAN</footer>
+
+</body>
+</html>
